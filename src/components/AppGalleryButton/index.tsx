@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-const Huawei = require("../../assets/icons/Huawei.svg");
+import Huawei from "../../assets/icons/Huawei.svg";
 import Button from "../Button";
 
 type AppGalleryButtonProps = {

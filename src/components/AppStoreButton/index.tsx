@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
-const AppStore = require("../../assets/icons/Apple.svg");
-const AppStoreLight = require("../../assets/icons/Apple-light.svg");
+import AppStore from "../../assets/icons/Apple.svg";
+import AppStoreLight from "../../assets/icons/Apple-light.svg";
 import Button from "../Button";
 
 type AppStoreButtonProps = {
