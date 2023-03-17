@@ -20,7 +20,8 @@
     "react component",
     "react",
     "react-component",
-    "Store"
+    "Store",
+    "AppGallery"
   ],
   "author": "Ghassen Eljday",
   "license": "MIT",
