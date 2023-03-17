@@ -27,11 +27,9 @@ Example Code:
 
 ```js
 import { GooglePlayButton } from "react-mobile-app-button";
-
 export const MyComponent = () => {
   const APKUrl =
     "https://play.google.com/store/apps/details?id=host.exp.exponent";
-
   return (
     <div>
       <GooglePlayButton
@@ -52,12 +50,10 @@ import {
   AppGalleryButton,
   ButtonsContainer,
 } from "react-mobile-app-button";
-
 export const MyComponent = () => {
   const APKUrl =
     "https://play.google.com/store/apps/details?id=host.exp.exponent";
   const iOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
-
   return (
     <ButtonsContainer>
       <GooglePlayButton
@@ -65,7 +61,6 @@ export const MyComponent = () => {
         theme={"light"}
         className={"custom-style"}
       />
-
       <AppGalleryButton
         url={iOSUrl}
         theme={"light"}
