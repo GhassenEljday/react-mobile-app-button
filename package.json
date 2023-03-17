@@ -8,6 +8,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GhassenEljday/react-mobile-app-button.git"
+  },
   "keywords": [
     "react",
     "mobile",
