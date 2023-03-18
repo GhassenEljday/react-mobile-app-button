@@ -6,7 +6,7 @@ import {
   AppGalleryButton,
   AppStoreButton,
   ButtonsContainer,
-} from "../../index";
+} from "../index";
 
 const stories = storiesOf("App test", module);
 
