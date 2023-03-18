@@ -1,13 +1,13 @@
 {
   "name": "react-mobile-app-button",
-  "version": "1.0.6",
+  "version": "1.0.13",
   "description": "A react component which allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": " babel src --extensions '.ts,.tsx,.svg' -d lib"
+    "build": "babel src --extensions '.ts,.tsx' --out-dir lib --ignore src/__tests__/ && cp -R src/assets lib/"
   },
   "repository": {
     "type": "git",
@@ -53,7 +53,6 @@
   "dependencies": {
     "@babel/cli": "^7.0.0-beta.36",
     "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "7.1.0",
     "@babel/preset-react": "7.0.0",
     "babel-loader": "8.0.0"

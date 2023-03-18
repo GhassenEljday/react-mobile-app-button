@@ -13,7 +13,7 @@
         "@babel/preset-react"
     ],
     "plugins": [
-        "@babel/proposal-class-properties", "inline-react-svg"
-    ],
+        "@babel/proposal-class-properties", ["@babel/plugin-proposal-decorators", {"legacy": true}]
+      ],
     "ignore": ["node_modules"]
 }

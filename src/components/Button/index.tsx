@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 const classNames = require("classnames");
-import "././button.css";
+import "./button.css";
 
 type ButtonProps = {
   theme?: "dark" | "light";
@@ -17,8 +17,8 @@ type ButtonProps = {
 
 const Button: FC<ButtonProps> = ({
   theme = "light",
-  height = 50,
-  width = 170,
+  height = 60,
+  width = 180,
   border,
   logo,
   storeName,
@@ -28,7 +28,7 @@ const Button: FC<ButtonProps> = ({
 }) => {
   return (
     <div
-      onClick={() => window.open(url, "_blank")}
+      onClick={() => url && window.open(url, "_blank")}
       style={{
         height: height,
         width: width,
