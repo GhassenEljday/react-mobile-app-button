@@ -16,7 +16,7 @@ or:
 yarn add react-mobile-app-button
 ```
 
-You will get an App Store, Google Play and AppGallery dwonload button on Web page looks like this:
+You will get an App Store, Google Play and AppGallery download button on Web page looks like this:
 
 ![image](https://user-images.githubusercontent.com/58111243/226064773-ee6d7ce3-e3cf-4a37-95d6-5e6db6c916c3.png)
 ![image](https://user-images.githubusercontent.com/58111243/226064822-65a6cf71-32fe-4298-b4ca-6f624f82dddf.png)
@@ -42,7 +42,7 @@ export const MyComponent = () => {
 };
 ```
 
-You can also import more than one burron in a row:
+You can also import more than one button in a row:
 
 ```js
 import {
