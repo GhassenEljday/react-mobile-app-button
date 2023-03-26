@@ -3,6 +3,7 @@ import React, { FC } from "react";
 import AppStore from "../../assets/icons/Apple.svg";
 import AppStoreLight from "../../assets/icons/Apple-light.svg";
 import Button from "../Button";
+import { useSystemTheme } from "../../hooks/useSystemTheme";
 
 type AppStoreButtonProps = {
   theme?: "dark" | "light";
@@ -12,8 +13,13 @@ type AppStoreButtonProps = {
   url: string;
 };
 
-const AppStoreButton: FC<AppStoreButtonProps> = ({
-  theme = "light",
+const appStoreThemedLogos: _ThemedLogosMap = {
+  light: AppStore,
+  dark: AppStoreLight,
+};
+
+const AppStoreButton: FC<StoreButtonProps> = ({
+  theme,
   height,
   width,
   className,
@@ -26,7 +32,7 @@ const AppStoreButton: FC<AppStoreButtonProps> = ({
       width={width}
       url={url}
       storeName={"App Store"}
-      logo={theme === "dark" ? AppStoreLight : AppStore}
+      logos={appStoreThemedLogos}
       className={className}
       title={"Download on the"}
     />

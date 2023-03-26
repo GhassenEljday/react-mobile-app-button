@@ -1,18 +1,15 @@
 import React, { FC } from "react";
 
-import Huawei from "../../assets/icons/Huawei.svg";
+import AppGallery from "../../assets/icons/Huawei.svg";
 import Button from "../Button";
 
-type AppGalleryButtonProps = {
-  theme?: "dark" | "light";
-  height?: number;
-  width?: number;
-  className?: string;
-  url: string;
+const appGalleryThemedLogos: _ThemedLogosMap = {
+  light: AppGallery,
+  dark: AppGallery,
 };
 
-const AppGalleryButton: FC<AppGalleryButtonProps> = ({
-  theme = "light",
+const AppGalleryButton: FC<StoreButtonProps> = ({
+  theme,
   height,
   width,
   className,
@@ -25,7 +22,7 @@ const AppGalleryButton: FC<AppGalleryButtonProps> = ({
       width={width}
       url={url}
       storeName={"AppGallery"}
-      logo={Huawei}
+      logos={appGalleryThemedLogos}
       className={className}
       title={"EXPLORE IT ON"}
     />

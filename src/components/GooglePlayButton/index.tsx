@@ -3,16 +3,13 @@ import React, { FC } from "react";
 import GooglePlay from "../../assets/icons/Google-Play.svg";
 import Button from "../Button";
 
-type GooglePlayButtonProps = {
-  theme?: "dark" | "light";
-  height?: number;
-  width?: number;
-  className?: string;
-  url: string;
+const googlePlayThemedLogos: _ThemedLogosMap = {
+  light: GooglePlay,
+  dark: GooglePlay,
 };
 
-const GooglePlayButton: FC<GooglePlayButtonProps> = ({
-  theme = "light",
+const GooglePlayButton: FC<StoreButtonProps> = ({
+  theme,
   height,
   width,
   className,
@@ -25,7 +22,7 @@ const GooglePlayButton: FC<GooglePlayButtonProps> = ({
       width={width}
       url={url}
       storeName={"Google Play"}
-      logo={GooglePlay}
+      logos={googlePlayThemedLogos}
       className={className}
       title={"GET IN ON"}
     />

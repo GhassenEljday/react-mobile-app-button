@@ -1,31 +1,22 @@
 import React, { FC } from "react";
 
-const classNames = require("classnames");
+import classNames from "classnames";
 import "./button.css";
+import { useSystemTheme } from "../../hooks/useSystemTheme";
 
-type ButtonProps = {
-  theme?: "dark" | "light";
-  height?: number;
-  width?: number;
-  logo: string;
-  storeName: string;
-  title: string;
-  url: string;
-  className?: string;
-  border?: number;
-};
-
-const Button: FC<ButtonProps> = ({
-  theme = "light",
+const Button: FC<_ButtonProps> = ({
+  theme: preferedTheme,
   height = 60,
   width = 180,
   border,
-  logo,
+  logos,
   storeName,
   title,
   url,
   className,
 }) => {
+  const systemTheme = useSystemTheme();
+  const theme = preferedTheme || systemTheme;
   return (
     <div
       onClick={() => url && window.open(url, "_blank")}
@@ -40,7 +31,7 @@ const Button: FC<ButtonProps> = ({
         className
       )}
     >
-      <img src={logo} alt={storeName} />
+      <img src={logos[theme]} alt={storeName} />
       <div className="button-text-container">
         <span className="button-title">{title}</span>
         <span className="button-store-name">{storeName}</span>
