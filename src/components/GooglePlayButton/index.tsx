@@ -27,7 +27,7 @@ const GooglePlayButton: FC<GooglePlayButtonProps> = ({
       storeName={"Google Play"}
       logo={GooglePlay}
       className={className}
-      title={"GET IN ON"}
+      title={"GET IT ON"}
     />
   );
 };
