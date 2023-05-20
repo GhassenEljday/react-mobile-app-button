@@ -1,8 +1,8 @@
-import { GooglePlayButton } from "../index";
+import { AppGalleryButton } from "../index";
 
 export default {
-  title: "Example/Google Play Button",
-  component: GooglePlayButton,
+  title: "Example/App Gallery Button",
+  component: AppGalleryButton,
   tags: ["autodocs"],
 };
 
