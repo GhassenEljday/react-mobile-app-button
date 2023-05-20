@@ -1,6 +1,5 @@
 import React, { FC } from "react";
 
-const classNames = require("classnames");
 import "./button.css";
 
 type ButtonProps = {
@@ -17,7 +16,7 @@ type ButtonProps = {
 
 const Button: FC<ButtonProps> = ({
   theme = "light",
-  height = 60,
+  height = 50,
   width = 180,
   border,
   logo,
@@ -34,11 +33,7 @@ const Button: FC<ButtonProps> = ({
         width: width,
         borderRadius: border,
       }}
-      className={classNames(
-        "button-container",
-        `button-container-${theme}`,
-        className
-      )}
+      className={`button-container button-container-${theme} ${className}`}
     >
       <img src={logo} alt={storeName} />
       <div className="button-text-container">
