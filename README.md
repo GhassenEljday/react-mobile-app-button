@@ -82,3 +82,22 @@ export const MyComponent = () => {
 | width     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | number           | For manually styling              |
 | gap       | `ButtonsContainer`                                       | number           | Control the space between buttons |
 | direction | `ButtonsContainer`                                       | "row" / "column" | Control flex direction            |
+|  |
+
+## Install adn run the project
+
+
+Clone the repository
+```bash
+gir clone https://github.com/GhassenEljday/react-mobile-app-button.git
+```
+
+Install the dependencies
+```bash
+npm install 
+```
+
+Finally you can run the project using `StoryBook` 
+```bash
+npm run storybook
+```
