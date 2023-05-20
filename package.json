@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-app-button",
-  "version": "1.0.13",
+  "version": "1.1.13",
   "description": "A react component which allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!",
   "main": "index.js",
   "scripts": {
