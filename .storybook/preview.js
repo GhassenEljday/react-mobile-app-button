@@ -3,6 +3,9 @@
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
+    storySort: {
+      order: ["Example", ["Google Play Button"]],
+    },
     controls: {
       matchers: {
         color: /(background|color)$/i,
