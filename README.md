@@ -2,7 +2,7 @@
 
 A react component that allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!
 
- Check documentation in => **[React Mobile App Button Docs](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
+ Check documentation here => **[React Mobile App Button Docs](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
 
 ## Install
 
@@ -79,14 +79,14 @@ export const MyComponent = () => {
 | --------- | -------------------------------------------------------- | ---------------- | --------------------------------- |
 | url       | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | Store URL                         |
 | theme     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | "dark" / "light" | Button Theme                      |
-| className | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | For manually styling              |
+| className | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | For manual styling              |
 | height    | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | number           | For manually styling              |
 | width     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | number           | For manually styling              |
 | gap       | `ButtonsContainer`                                       | number           | Control the space between buttons |
 | direction | `ButtonsContainer`                                       | "row" / "column" | Control flex direction            |
 |  |
 
-## Install adn run the project
+## Install and run the project
 
 
 Clone the repository
