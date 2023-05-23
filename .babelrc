@@ -2,21 +2,16 @@
   "presets": [
     [
       "@babel/preset-typescript",
-      "@babel/preset-env",
-      "@babel/preset-react",
       {
         "targets": {
           "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"]
         },
         "forceAllTransforms": true,
-        "useBuiltIns": false
+        "useBuiltIns": true
       }
     ],
     "@babel/preset-react"
   ],
-  "plugins": [
-    "@babel/proposal-class-properties",
-    ["@babel/plugin-proposal-decorators", { "legacy": true }]
-  ],
+  "plugins": ["@babel/proposal-class-properties"],
   "ignore": ["node_modules"]
 }

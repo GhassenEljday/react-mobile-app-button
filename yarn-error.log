@@ -1,0 +1,88 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ghass\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @babel/plugin-proposal-decorators
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ghass\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts;C:\Python311;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\ghass\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ghass\OneDrive\Documents\apache-maven-3.8.7\bin;C:\ProgramData\chocolatey\bin;C:\Users\ghass\AppData\Local\Microsoft\WindowsApps;C:\Users\ghass\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ghass\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ghass\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\ghass\OneDrive\Desktop\Side project\react-mobile-app-button\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "react-mobile-app-button",
+    "version": "1.1.13",
+    "description": "A react component which allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "babel src --extensions '.ts,.tsx' --out-dir lib --ignore src/__tests__/ && cp -R src/assets lib/",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build",
+      "serve-storybook": "npx serve storybook-static"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/GhassenEljday/react-mobile-app-button.git"
+    },
+    "keywords": [
+      "react",
+      "mobile",
+      "button",
+      "App",
+      "AppStore button",
+      "AppStore",
+      "button",
+      "PlayStore",
+      "react component",
+      "react",
+      "react-component",
+      "Store",
+      "AppGallery"
+    ],
+    "author": "Ghassen Eljday",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.21.3",
+      "@storybook/addon-essentials": "^7.0.12",
+      "@storybook/addon-interactions": "^7.0.12",
+      "@storybook/addon-links": "^7.0.12",
+      "@storybook/blocks": "^7.0.12",
+      "@storybook/react": "^7.0.12",
+      "@storybook/react-vite": "^7.0.12",
+      "@storybook/testing-library": "^0.0.14-next.2",
+      "@types/node": "^18.15.3",
+      "@types/react": "^18.0.28",
+      "babel-plugin-inline-react-svg": "^2.0.2",
+      "prop-types": "^15.8.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "storybook": "^7.0.12"
+    },
+    "peerDependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "dependencies": {
+      "@babel/cli": "^7.0.0-beta.36",
+      "@babel/core": "^7.0.0",
+      "@babel/preset-env": "7.1.0",
+      "@babel/preset-react": "7.0.0",
+      "babel-loader": "8.0.0",
+      "vite": "^4.3.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
