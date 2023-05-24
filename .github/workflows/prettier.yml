@@ -1,0 +1,37 @@
+name: Prettier Check
+
+on:
+  push:
+    branches-ignore:
+      - '**'
+
+jobs:
+  prettier-check:
+    name: Prettier Code Formatting Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Prettier Check
+        run: npx prettier --check .
+
+      - name: Post Comment
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const body = "Prettier check has completed!";
+            const issueComment = context.issue({
+              body: body,
+            });
+            return github.issues.createComment(issueComment);
