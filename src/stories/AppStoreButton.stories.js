@@ -37,3 +37,12 @@ export const CustomWidth = {
     width: 160,
   },
 };
+
+/**
+ * Example: title "Download on the"
+ */
+export const CustomTitle = {
+  args: {
+    title: "Download on the",
+  },
+};
