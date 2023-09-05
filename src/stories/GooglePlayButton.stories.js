@@ -29,11 +29,10 @@ export const CustomHeight = {
 };
 
 /**
- * Example: width 160px
+ * Example: "GET IT ON"
  */
-export const CustomWidth = {
+export const CustomTitle = {
   args: {
-    theme: "dark",
-    width: 160,
+    title: "GET IT ON",
   },
 };
