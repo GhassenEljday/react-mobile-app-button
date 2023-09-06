@@ -1,10 +1,12 @@
 {
-    "compilerOptions": {
-      "jsx": "react",
-      "esModuleInterop": true,
-      "allowSyntheticDefaultImports": true,
-      "declaration": true,
-      "emitDeclarationOnly": true,
-      "isolatedModules": true
-    }
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "outDir": "./lib",
+    "rootDir": "./src"
   }
+}

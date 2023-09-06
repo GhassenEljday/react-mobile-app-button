@@ -39,10 +39,10 @@ export const CustomWidth = {
 };
 
 /**
- * Example: title "Download on the"
+ * Example: title "Descargar en"
  */
 export const CustomTitle = {
   args: {
-    title: "Download on the",
+    title: "Descargar en",
   },
 };

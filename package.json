@@ -1,11 +1,13 @@
 {
   "name": "react-mobile-app-button",
-  "version": "1.1.13",
+  "version": "1.2.14",
   "description": "A react component which allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --extensions .ts,.tsx --out-dir lib && cp -R src/assets lib/",
+    "build": "npm run build:types && npm run build:js",
+    "build:js": "babel src --extensions .ts,.tsx --out-dir lib && cp -R src/assets lib/",
+    "build:types": "tsc",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "serve-storybook": "npx serve storybook-static"
@@ -31,6 +33,7 @@
   ],
   "author": "Ghassen Eljday",
   "license": "MIT",
+  "homepage": "https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs",
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",

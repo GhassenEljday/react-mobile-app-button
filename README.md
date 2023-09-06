@@ -2,7 +2,7 @@
 
 A react component that allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!
 
- Check documentation here => **[React Mobile App Button Docs](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
+Check documentation here => **[React Mobile App Button Docs](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
 
 ## Install
 
@@ -29,9 +29,10 @@ Example Code:
 
 ```js
 import { GooglePlayButton } from "react-mobile-app-button";
+
 export const MyComponent = () => {
-  const APKUrl =
-    "https://play.google.com/store/apps/details?id=host.exp.exponent";
+  const APKUrl = "https://play.google.com/store/apps/details?id=host";
+
   return (
     <div>
       <GooglePlayButton
@@ -52,10 +53,11 @@ import {
   AppGalleryButton,
   ButtonsContainer,
 } from "react-mobile-app-button";
+
 export const MyComponent = () => {
-  const APKUrl =
-    "https://play.google.com/store/apps/details?id=host.exp.exponent";
+  const APKUrl = "https://play.google.com/store/apps/details?id=host";
   const iOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
+
   return (
     <ButtonsContainer>
       <GooglePlayButton
@@ -63,6 +65,7 @@ export const MyComponent = () => {
         theme={"light"}
         className={"custom-style"}
       />
+
       <AppGalleryButton
         url={iOSUrl}
         theme={"light"}
@@ -79,27 +82,34 @@ export const MyComponent = () => {
 | --------- | -------------------------------------------------------- | ---------------- | --------------------------------- |
 | url       | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | Store URL                         |
 | theme     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | "dark" / "light" | Button Theme                      |
-| className | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | For manual styling              |
+| className | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | For manual styling                |
+| title     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | string           | For custom message                |
 | height    | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | number           | For manually styling              |
 | width     | `GooglePlayButton`, `AppGalleryButton`, `AppStoreButton` | number           | For manually styling              |
 | gap       | `ButtonsContainer`                                       | number           | Control the space between buttons |
 | direction | `ButtonsContainer`                                       | "row" / "column" | Control flex direction            |
-|  |
+|           |
 
 ## Install and run the project
 
-
 Clone the repository
+
 ```bash
-gir clone https://github.com/GhassenEljday/react-mobile-app-button.git
+git clone https://github.com/GhassenEljday/react-mobile-app-button.git
 ```
 
 Install the dependencies
+
 ```bash
-npm install 
+npm install
 ```
 
-Finally you can run the project using `StoryBook` 
+Finally you can run the project using `StoryBook`
+
 ```bash
 npm run storybook
 ```
+
+##
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J5CGNZQ)
