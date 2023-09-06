@@ -39,10 +39,10 @@ export const CustomWidth = {
 };
 
 /**
- * Example: "EXPLORE IT ON"
+ * Example: "EXPLÓRALO EN"
  */
 export const CustomTitle = {
   args: {
-    title: "EXPLORE IT ON",
+    title: "EXPLÓRALO EN",
   },
 };
