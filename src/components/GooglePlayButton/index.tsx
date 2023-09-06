@@ -10,6 +10,11 @@ type GooglePlayButtonProps = {
   theme?: "dark" | "light";
 
   /**
+   * @default "GET IT ON"
+   */
+  title: string;
+
+  /**
    * @default 60px
    */
   height?: number;
@@ -31,18 +36,19 @@ type GooglePlayButtonProps = {
 };
 
 /**
- * 
+ *
  * @param {string} theme Choose a theme between dark and light
  * @param {number} height Controls the height of the button
  * @param {number} width Controls the width of the button
  * @param {string} className Add className to the button in order to customize the button appearance
  * @param {string} url Add your store url to the button
  * @example <GooglePlayButton theme="light" height={70} width={130} className="button-container" url="https://play.google.com/" />
- * @returns 
+ * @returns
  */
 const GooglePlayButton: FC<GooglePlayButtonProps> = ({
   theme = "light",
   height,
+  title = "GET IT ON",
   width,
   className,
   url,
@@ -56,7 +62,7 @@ const GooglePlayButton: FC<GooglePlayButtonProps> = ({
       storeName={"Google Play"}
       logo={GooglePlay}
       className={className}
-      title={"GET IT ON"}
+      title={title}
     />
   );
 };

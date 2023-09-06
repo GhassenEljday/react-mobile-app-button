@@ -11,6 +11,11 @@ type AppStoreButtonProps = {
   theme?: "dark" | "light";
 
   /**
+   * @default "Download on the"
+   */
+  title: string;
+
+  /**
    * @default 60px
    */
   height?: number;
@@ -35,6 +40,7 @@ type AppStoreButtonProps = {
  *
  * @param {string} theme Choose a theme between dark and light
  * @param {number} height Controls the height of the button
+ * @param {number} height Controls the height of the button
  * @param {number} width Controls the width of the button
  * @param {string} className Add className to the button in order to customize the button appearance
  * @param {string} url Add your store url to the button
@@ -44,6 +50,7 @@ type AppStoreButtonProps = {
 const AppStoreButton: FC<AppStoreButtonProps> = ({
   theme = "light",
   height,
+  title = "Download on the",
   width,
   className,
   url,
@@ -57,7 +64,7 @@ const AppStoreButton: FC<AppStoreButtonProps> = ({
       storeName={"App Store"}
       logo={theme === "dark" ? AppStoreLight : AppStore}
       className={className}
-      title={"Download on the"}
+      title={title}
     />
   );
 };

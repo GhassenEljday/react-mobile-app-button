@@ -10,6 +10,11 @@ type AppGalleryButtonProps = {
   theme?: "dark" | "light";
 
   /**
+   * @default "EXPLORE IT ON"
+   */
+  title: string;
+
+  /**
    * @default 60px
    */
   height?: number;
@@ -34,6 +39,7 @@ type AppGalleryButtonProps = {
  *
  * @param {string} theme Choose a theme between dark and light
  * @param {number} height Controls the height of the button
+ * @param {string} title Custom title in button
  * @param {number} width Controls the width of the button
  * @param {string} className Add className to the button in order to customize the button appearance
  * @param {string} url Add your store url to the button
@@ -43,6 +49,7 @@ type AppGalleryButtonProps = {
 const AppGalleryButton: FC<AppGalleryButtonProps> = ({
   theme = "light",
   height,
+  title = "EXPLORE IT ON",
   width,
   className,
   url,
@@ -56,7 +63,7 @@ const AppGalleryButton: FC<AppGalleryButtonProps> = ({
       storeName={"AppGallery"}
       logo={Huawei}
       className={className}
-      title={"EXPLORE IT ON"}
+      title={title}
     />
   );
 };
