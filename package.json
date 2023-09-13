@@ -1,7 +1,7 @@
 {
   "name": "react-mobile-app-button",
   "version": "1.2.15",
-  "description": "A react component which allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!",
+  "description": "Discover our versatile React component designed to effortlessly integrate download buttons for iOS App Store, Google Play Store, and Huawei AppGallery. With our component, you can easily enhance user experience by providing seamless access to your mobile app across popular platforms. Boost your app's visibility and accessibility today!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -29,7 +29,13 @@
     "react",
     "react-component",
     "Store",
-    "AppGallery"
+    "AppGallery",
+    "iOS App Store button",
+    "Google Play Store button",
+    "Huawei AppGallery button",
+    "Mobile app download buttons",
+    "React component for app downloads",
+    "React download button component"
   ],
   "author": "Ghassen Eljday",
   "license": "MIT",
