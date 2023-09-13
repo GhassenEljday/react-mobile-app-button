@@ -35,7 +35,12 @@
     "Huawei AppGallery button",
     "Mobile app download buttons",
     "React component for app downloads",
-    "React download button component"
+    "React download button component",
+    "App store integration",
+    "Mobile app distribution",
+    "Download button generator",
+    "App download CTA",
+    "Multi-store download buttons"
   ],
   "author": "Ghassen Eljday",
   "license": "MIT",
