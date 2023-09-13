@@ -1,8 +1,10 @@
-# react-mobile-app-button
+# React Component for iOS App Store, Google Play, and Huawei AppGallery Download Buttons.
 
-A react component that allows you to place an iOS App Store, Google Play Store and Huawei AppGallery Download button!
+Discover our versatile React component designed to effortlessly integrate download buttons for iOS App Store, Google Play Store, and Huawei AppGallery. With our component, you can easily enhance user experience by providing seamless access to your mobile app across popular platforms. Boost your app's visibility and accessibility today!
 
-Check documentation here => **[React Mobile App Button Docs](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
+**[Documentation](https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs)**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J5CGNZQ)
 
 ## Install
 
@@ -110,6 +112,9 @@ Finally you can run the project using `StoryBook`
 npm run storybook
 ```
 
-##
+## Getting Help
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J5CGNZQ)
+If you encounter any issues or have questions, don't hesitate to reach out to us:
+
+- **Email**: [ghasseneljday@gmail.com](mailto:ghasseneljday@gmail.com)
+- **Issue Tracker**: [GitHub Issues](https://github.com/GhassenEljday/react-mobile-app-button/issues)
