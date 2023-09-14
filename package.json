@@ -47,7 +47,7 @@
   "homepage": "https://react-mobile-app-button-one.vercel.app/?path=/docs/example-google-play-button--docs",
   "types": "./lib/index.d.ts",
   "publishConfig": {
-    "registry": "https://www.npmjs.com/package/react-mobile-app-button?activeTab=readme"
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",

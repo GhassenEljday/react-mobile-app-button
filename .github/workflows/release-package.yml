@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://github.com/GhassenEljday/react-mobile-app-button
+          registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: npm publish
         env:
