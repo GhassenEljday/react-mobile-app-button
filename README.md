@@ -58,7 +58,7 @@ import {
 
 export const MyComponent = () => {
   const APKUrl = "https://play.google.com/store/apps/details?id=host";
-  const iOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
+  const IOSUrl = "https://apps.apple.com/us/app/expo-go/id982107779";
 
   return (
     <ButtonsContainer>
@@ -69,7 +69,7 @@ export const MyComponent = () => {
       />
 
       <AppGalleryButton
-        url={iOSUrl}
+        url={IOSUrl}
         theme={"light"}
         className={"custom-style"}
       />
