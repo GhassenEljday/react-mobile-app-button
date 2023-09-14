@@ -1,4 +1,4 @@
-name: React mobile app button Package
+name: react-mobile-app-button
 
 on:
   release:
