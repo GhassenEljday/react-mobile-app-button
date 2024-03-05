@@ -49,12 +49,12 @@
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
-    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.0.12",
     "@storybook/addon-links": "^7.0.12",
     "@storybook/blocks": "^7.0.12",
     "@storybook/react": "^7.0.12",
-    "@storybook/react-vite": "^7.0.12",
+    "@storybook/react-vite": "^7.6.17",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/node": "^18.15.3",
     "@types/react": "^18.0.28",
@@ -62,7 +62,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "storybook": "^7.0.12"
+    "storybook": "^7.6.17"
   },
   "peerDependencies": {
     "react": "^18.2.0",
