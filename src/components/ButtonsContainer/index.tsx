@@ -1,6 +1,11 @@
 import React, { FC, ReactNode } from "react";
+import styled, { css } from "styled-components";
 
-import "./buttonsContainer.css";
+const ButtonTextContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 20px;
+`;
 
 type ButtonsContainerProps = {
   /**
@@ -28,15 +33,14 @@ const ButtonsContainer: FC<ButtonsContainerProps> = ({
   direction = "row",
 }) => {
   return (
-    <div
-      className="buttons-container"
+    <ButtonTextContainer
       style={{
         gap: gap,
         flexDirection: direction,
       }}
     >
       {children}
-    </div>
+    </ButtonTextContainer>
   );
 };
 
