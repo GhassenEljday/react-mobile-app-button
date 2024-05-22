@@ -75,7 +75,7 @@
     "@babel/preset-react": "7.0.0",
     "@vitejs/plugin-react": "^4.2.1",
     "babel-loader": "8.3.0",
-    "styled-components": "^6.1.8",
+    "styled-components": "^6.1.9",
     "vite": "^4.3.8"
   }
 }
