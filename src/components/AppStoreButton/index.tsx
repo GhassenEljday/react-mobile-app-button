@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
-import AppStore from "../../assets/icons/Apple.svg";
-import AppStoreLight from "../../assets/icons/Apple-light.svg";
+import AppStore from "../../assets/icons/Apple";
+import AppStoreLight from "../../assets/icons/Apple-light";
 import Button from "../Button";
 
 type AppStoreButtonProps = {

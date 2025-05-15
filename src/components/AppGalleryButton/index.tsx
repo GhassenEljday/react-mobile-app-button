@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import Huawei from "../../assets/icons/Huawei.svg";
+import Huawei from "../../assets/icons/Huawei";
 import Button from "../Button";
 
 type AppGalleryButtonProps = {
