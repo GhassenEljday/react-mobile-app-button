@@ -59,16 +59,16 @@
     "@storybook/react-vite": "^8.1.1",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/node": "^18.15.3",
-    "@types/react": "^18.0.28",
+    "@types/react": "^19.1.4",
     "babel-plugin-inline-react-svg": "^2.0.2",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "storybook": "^8.1.1"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "dependencies": {
     "@babel/preset-env": "7.1.0",
