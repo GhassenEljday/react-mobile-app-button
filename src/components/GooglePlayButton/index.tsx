@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 
-import GooglePlay from "../../assets/icons/Google-Play.svg";
+import GooglePlay from "../../assets/icons/Google-Play";
 import Button from "../Button";
 
 type GooglePlayButtonProps = {

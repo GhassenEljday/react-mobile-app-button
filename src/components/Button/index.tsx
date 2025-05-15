@@ -5,7 +5,7 @@ type ButtonProps = {
   theme?: "dark" | "light";
   height?: number;
   width?: number;
-  logo: string;
+  logo: () => JSX.Element
   storeName: string;
   title: string;
   url: string;
@@ -57,6 +57,7 @@ const Button: FC<ButtonProps> = ({
   url,
   className,
 }) => {
+  const Logo = logo
   return (
     <ButtonContainer
       theme={theme}
@@ -73,7 +74,7 @@ const Button: FC<ButtonProps> = ({
       title={title}
       url={url}
     >
-      <img src={logo} alt={storeName} />
+      <Logo />
       <ButtonTextContainer>
         <ButtonTitle>{title}</ButtonTitle>
         <ButtonStoreName>{storeName}</ButtonStoreName>
