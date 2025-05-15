@@ -119,5 +119,3 @@ If you encounter any issues or have questions, please don't hesitate to reach ou
 
 - **Email**: [ghasseneljday@gmail.com](mailto:ghasseneljday@gmail.com)
 - **Issue Tracker**: [GitHub Issues](https://github.com/GhassenEljday/react-mobile-app-button/issues)
-
-We're here to assist you in making the most of our React component.
