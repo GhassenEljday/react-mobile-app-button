@@ -66,6 +66,7 @@ const Button: FC<ButtonProps> = ({
       style={{
         height,
         width,
+        minWidth: width,
         borderRadius: border,
       }}
       onClick={() => window.open(url, "_blank")}
